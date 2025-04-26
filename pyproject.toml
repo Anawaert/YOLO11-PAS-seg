@@ -15,7 +15,7 @@
 # This approach allows for real-time code modifications without the need for re-installation.
 
 # Documentation:
-# For comprehensive documentation and usage instructions, visit: https://docs.anawaert.tech/YOLO11-PAS-seg-docs/
+# For comprehensive documentation and usage instructions, visit: https://https://docs.ultralytics.com and https://docs.anawaert.tech/YOLO11-PAS-seg-docs
 
 [build-system]
 requires = ["setuptools>=70.0.0", "wheel"]
@@ -23,9 +23,9 @@ build-backend = "setuptools.build_meta"
 
 # Project settings -----------------------------------------------------------------------------------------------------
 [project]
-name = "ultralytics"
+name = "YOLO11-PAS-seg"
 dynamic = ["version"]
-description = "Ultralytics YOLO 🚀 for SOTA object detection, multi-object tracking, instance segmentation, pose estimation and image classification."
+description = "YOLO11-PAS-seg project based on ultralytics YOLO 🚀 for SOTA object detection and instance segmentation."
 readme = "README.md"
 requires-python = ">=3.8"
 license = { "text" = "AGPL-3.0" }
